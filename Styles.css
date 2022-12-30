@@ -1,0 +1,42 @@
+
+html, body {
+    font-family: 'Space Grotesk';
+    margin: 0;
+}
+
+header {
+    font-size: 1.5rem;
+    width: 100%;
+    display: flex;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    /* top: 40%; */
+    top: 2rem;
+    align-self: start;
+}
+
+h1 {
+    font-size: 25px;
+}
+
+#main-content {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    padding: 2rem;
+    max-width: 2000px;
+}
+
+
+.right-column {
+}
+
+
+.tall {
+    height: 1000px;
+    display: flex;
+    padding: 0 6rem;
+}
